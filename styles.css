@@ -1,74 +1,88 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-image: url('utilities/bg.jpeg');
-    background-size: cover;
-    overflow: hidden;
+body {
+  background-image: url("utilities/bg.jpeg");
+  background-size: cover;
+  overflow: hidden;
 }
 
-.chrome img{
-    margin-left: 20px;
-    width: 55px;
+.chrome img {
+  margin-left: 20px;
+  width: 55px;
 }
 
-.googlehome{
-    width: 100%;
-    position: absolute;
-    left: -6500px;
-    transition: all 0.2s ease-in;
+.github {
+  margin-top: 2px;
+  margin-left: 16px;
 }
 
-p{
-    color: white;
+.github img {
+  width: 4.5%;
 }
 
-.right{
-    position: absolute;
-    right: 0;
-    margin: 6px 0;
-    height: 85%;
+#git-text {
+  position: absolute;
+  left: 8px;
 }
 
-.startmenu{
-    position: absolute;
-    bottom: -650px;
-    width: 100%;
-    text-align: center;
-    transition: all 0.2s ease-in-out;
+.googlehome {
+  width: 100%;
+  position: absolute;
+  left: -6500px;
+  transition: all 0.2s ease-in;
 }
 
-.startmenu img{
-    height: 35rem;
-    border-radius: 8px;
+p {
+  color: white;
 }
 
-.taskbar{
-    background-color: #f3f3f3;
-    position: absolute;
-    bottom: 0px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    z-index: 110;
+.right {
+  position: absolute;
+  right: 0;
+  margin: 6px 0;
+  height: 85%;
 }
 
-.vscode img{
-    margin-left: 30px;
-    width: 30px;
+.startmenu {
+  position: absolute;
+  bottom: -650px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
 }
 
-.vshome{
-    text-align: center; 
-    width:100%;
-    position: absolute;
-    bottom: -650px;
-    transition: all 0.2s ease-in;
-    z-index: -30;
+.startmenu img {
+  height: 35rem;
+  border-radius: 8px;
 }
 
-.vshome img{
-    height: 560px;
+.taskbar {
+  background-color: #f3f3f3;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 110;
+}
+
+.vscode img {
+  margin-left: 30px;
+  width: 30px;
+}
+
+.vshome {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: -650px;
+  transition: all 0.2s ease-in;
+  z-index: -30;
+}
+
+.vshome img {
+  height: 560px;
 }
